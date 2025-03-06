@@ -316,7 +316,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 150px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -350,7 +350,7 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: max-content;
+  width: 100%;
   padding: 3px 12px;
   border-radius: 8px;
 }
@@ -745,7 +745,7 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: 20%;
   scroll-snap-align: start;
 }
 
@@ -958,7 +958,6 @@ main {
   position: relative;
   width: 100%;
   height: 200px;
-  border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
 }
@@ -1003,9 +1002,10 @@ main {
 
 .project-img img {
   width: 100%;
-  height: 100%;
+  height: 170px;
   object-fit: cover;
   transition: var(--transition-1);
+  border-radius: 16px;
 }
 
 .project-item > a:hover img { transform: scale(1.1); }
@@ -1340,7 +1340,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+ 
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1507,7 +1507,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #PORTFOLIO, BLOG
    */
 
-  .project-img, .blog-banner-box { border-radius: 16px; }
+  .blog-banner-box { border-radius: 16px; }
 
   .blog-posts-list { gap: 30px; }
 
@@ -1836,8 +1836,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
-
+ 
   .info-content .name {
     white-space: nowrap;
     text-align: center;
